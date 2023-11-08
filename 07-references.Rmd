@@ -1,3 +1,4 @@
 `r if (knitr::is_html_output()) '
 # References {-}
-'`
+'`Xie, Yihui. 2023. Bookdown: Authoring Books and Technical Documents with r Markdown. https://github.com/rstudio/bookdown. <br>
+'`Ocean Health Index. 2015. Ocean Health Index Toolbox Manual [2021]. National Center for Ecological Analysis and Synthesis, University of California, Santa Barbara. Available at: http://ohi-science.org/manual'

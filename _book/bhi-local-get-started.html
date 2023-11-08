@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 BHI-local – Get Started! | Baltic Health Index Toolbox Manual</title>
+  <meta name="description" content="This is the official Baltic Health Index Toolbox Manual." />
+  <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 BHI-local – Get Started! | Baltic Health Index Toolbox Manual" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is the official Baltic Health Index Toolbox Manual." />
+  <meta name="github-repo" content="OHI-Baltic/bhi-local-manual" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 BHI-local – Get Started! | Baltic Health Index Toolbox Manual" />
+  
+  <meta name="twitter:description" content="This is the official Baltic Health Index Toolbox Manual." />
+  
+
+<meta name="author" content="Baltic Health Index Team" />
+
+
+<meta name="date" content="2023-11-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="underlying-theory-concepts-and-framework.html"/>
+<link rel="next" href="r-playground.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">BHI Toolbox Manual</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
+<li class="chapter" data-level="2" data-path="what-is-the-baltic-health-index.html"><a href="what-is-the-baltic-health-index.html"><i class="fa fa-check"></i><b>2</b> What is the Baltic Health Index?</a>
+<ul>
+<li class="chapter" data-level="" data-path="what-is-the-baltic-health-index.html"><a href="what-is-the-baltic-health-index.html#open-science"><i class="fa fa-check"></i>Open Science</a></li>
+<li class="chapter" data-level="" data-path="what-is-the-baltic-health-index.html"><a href="what-is-the-baltic-health-index.html#what-other-ohi-assessments-have-done"><i class="fa fa-check"></i>What other OHI<sup>+</sup> assessments have done?</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="get-set-up-with-r-rstudio-git-github.html"><a href="get-set-up-with-r-rstudio-git-github.html"><i class="fa fa-check"></i><b>3</b> Get set up with R, Rstudio, Git &amp; Github</a>
+<ul>
+<li class="chapter" data-level="" data-path="get-set-up-with-r-rstudio-git-github.html"><a href="get-set-up-with-r-rstudio-git-github.html#further-trainings-and-learning"><i class="fa fa-check"></i>Further Trainings and Learning</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="underlying-theory-concepts-and-framework.html"><a href="underlying-theory-concepts-and-framework.html"><i class="fa fa-check"></i><b>4</b> Underlying theory, concepts and framework</a>
+<ul>
+<li class="chapter" data-level="" data-path="underlying-theory-concepts-and-framework.html"><a href="underlying-theory-concepts-and-framework.html#dimensions-of-the-index"><i class="fa fa-check"></i>Dimensions of the Index</a></li>
+<li class="chapter" data-level="" data-path="underlying-theory-concepts-and-framework.html"><a href="underlying-theory-concepts-and-framework.html#glossary"><i class="fa fa-check"></i>Glossary</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html"><i class="fa fa-check"></i><b>5</b> BHI-local – Get Started!</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#a-qualified-technical-team"><i class="fa fa-check"></i><b>5.1</b> A qualified technical team</a></li>
+<li class="chapter" data-level="5.2" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#policy-and-management-interest"><i class="fa fa-check"></i><b>5.2</b> Policy and Management Interest</a></li>
+<li class="chapter" data-level="5.3" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#funding"><i class="fa fa-check"></i><b>5.3</b> Funding</a></li>
+<li class="chapter" data-level="5.4" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#data-and-indicators"><i class="fa fa-check"></i><b>5.4</b> Data and Indicators</a></li>
+<li class="chapter" data-level="" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#steps"><i class="fa fa-check"></i>Steps</a>
+<ul>
+<li class="chapter" data-level="" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#creating-a-vision-whats-the-purpose-of-this-bhi-assessment"><i class="fa fa-check"></i>1) Creating a Vision: What’s the purpose of this BHI<sup>+</sup> assessment?</a></li>
+<li class="chapter" data-level="" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#identifying-local-characteristics-and-priorities"><i class="fa fa-check"></i>2) Identifying local characteristics and priorities</a></li>
+<li class="chapter" data-level="" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#defining-spatial-areas"><i class="fa fa-check"></i>3) Defining spatial areas</a></li>
+<li class="chapter" data-level="" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#identifying-indicators-and-data"><i class="fa fa-check"></i>4) Identifying indicators and data</a></li>
+<li class="chapter" data-level="" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#establishing-reference-points"><i class="fa fa-check"></i>5) Establishing reference points</a></li>
+<li class="chapter" data-level="" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#establishing-pressures-and-resilience-measures"><i class="fa fa-check"></i>6) Establishing Pressures and Resilience measures</a></li>
+<li class="chapter" data-level="" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#establishing-communications-and-outreach-efforts"><i class="fa fa-check"></i>7) Establishing communications and outreach efforts</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#data-management-for-bhi-local"><i class="fa fa-check"></i><b>5.5</b> Data management for BHI-local</a></li>
+<li class="chapter" data-level="5.6" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#the-process-of-preparing-data-for-the-index"><i class="fa fa-check"></i><b>5.6</b> The Process of Preparing data for the Index</a></li>
+<li class="chapter" data-level="5.7" data-path="bhi-local-get-started.html"><a href="bhi-local-get-started.html#calculating-the-index-scores-and-making-flowerplots"><i class="fa fa-check"></i><b>5.7</b> Calculating the Index Scores and making Flowerplots</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="r-playground.html"><a href="r-playground.html"><i class="fa fa-check"></i><b>6</b> R Playground!</a>
+<ul>
+<li class="chapter" data-level="" data-path="r-playground.html"><a href="r-playground.html#further-readings-and-learnings"><i class="fa fa-check"></i>Further Readings and Learnings</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/OHI-Baltic/bhi-local-manual" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Baltic Health Index Toolbox Manual</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="bhi-local-get-started" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Chapter 5</span> BHI-local – Get Started!<a href="bhi-local-get-started.html#bhi-local-get-started" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The OHI<sup>+</sup> is a step-by-step standardized process with an adaptive capacity to meet local necessities and needs, which leads to the creation of effective integrated management approaches for the ocean and coastal ecosystems.
+<br>
+Planning a BHI<sup>+</sup> assessment requires identifying the <strong>needs</strong> and <strong>spatial areas</strong> of the assessment, establishing <strong>objectives</strong> and a <strong>timeline of activities</strong>, determining <strong>necessary resources</strong> (human and financial), and aligning the assessment process with existing efforts and initiatives.</p>
+<p>The following are key ingredients when creating a local assessment from scratch.</p>
+<div id="a-qualified-technical-team" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> A qualified technical team<a href="bhi-local-get-started.html#a-qualified-technical-team" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A <strong>core team</strong> that is very knowledgeable about the BHI framework and process, and <strong>‘Goal-keepers’</strong> that are experts in specific BHI<sup>+</sup> goals to help develop the best models, access information, identify pressures and resilience measures, and set reference points, through in-person meetings, workshops, and remote communication.</p>
+<p><img src="_book/_main_files/figure-html/workshop-unsplash-photo-by-patrick-perkins.jpg" width="800px" style="display: block; margin: auto;" /></p>
+<p><br></p>
+</div>
+<div id="policy-and-management-interest" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Policy and Management Interest<a href="bhi-local-get-started.html#policy-and-management-interest" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>BHI<sup>+</sup> assessments can be used to <strong>inform</strong> government policies to <strong>improve</strong> ocean health. This is most effective if there is interest and engagement from policy makers and ongoing communication during the BHI<sup>+</sup> process, so the resulting index is better tailored to measure features and impacts of concern, targeted by <strong>management actions</strong>.</p>
+</div>
+<div id="funding" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Funding<a href="bhi-local-get-started.html#funding" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The costs to complete BHI<sup>+</sup> assessments vary depending on the local context, and the first will need more investment than subsequent assessments. Financial support is needed for a management and technical team, workshops and meetings (including travel), communication, policy engagement, and operating costs. Therefore, <strong>securing funding</strong> is an important component to satisfactorily complete assessments and building institutional memory. The development of a local proposal or strategic action plan that details a timeline of activities, including the resources needed to accomplish them, is encouraged.</p>
+</div>
+<div id="data-and-indicators" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> Data and Indicators<a href="bhi-local-get-started.html#data-and-indicators" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>BHI<sup>+</sup> assessments require gathering existing data and indicators to <strong>represent relevant BHI<sup>+</sup> goals</strong>, and the pressures and resilience actions interacting with those goals. Information can come from environmental, social, and economic sources.
+It takes time to identify, gather, and process these data and indicators, and accessing the <strong>best available information</strong> is of highest importance. It is important to communicate where data gaps exist and which data are not ideal to be used; <strong>identifying missing information</strong> helps highlight areas for future improvement (see also this <a href="https://docs.google.com/spreadsheets/d/1f-vwUrQHrMs7cjhChuK2YnlbkE_5kQ6AgGwyV2eJ1vA/edit#gid=1485393150">OHI Data Planner</a> to help you organize your thinking around the data available and how it could be used in your BHI<sup>+</sup> assessment).</p>
+<p><br></p>
+<hr />
+</div>
+<div id="steps" class="section level2 unnumbered hasAnchor">
+<h2>Steps<a href="bhi-local-get-started.html#steps" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>BHI<sup>+</sup> assessments use the same framework as the BHI assessments, but allow for exploration of variables influencing ocean health at the <strong>smaller scales</strong> where policy and management decisions are made. Goal models and targets are created using higher resolution data, indicators, and priorities, which produce scores <strong>better reflecting local realities</strong>. This enables scientists, managers, policy makers, and the public to better and more holistically understand, track, and communicate the status of local marine ecosystems, and to <strong>design strategic management actions</strong> to improve overall ocean health.</p>
+<div id="creating-a-vision-whats-the-purpose-of-this-bhi-assessment" class="section level3 unnumbered hasAnchor">
+<h3>1) Creating a Vision: What’s the purpose of this BHI<sup>+</sup> assessment?<a href="bhi-local-get-started.html#creating-a-vision-whats-the-purpose-of-this-bhi-assessment" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Creating the Index is not the end goal: it is merely a process toward the true end goal – <strong>achieving improved ocean health</strong>. Establishing a common vision and determining early in the process how the findings will be used and by whom, makes the final goal clear to the greater community (as well as to stakeholders and participants). Establishing a vision will help identify outstanding important issues that may need to be addressed later on. For example:</p>
+<ul>
+<li>What are the existing stakeholder problems, needs, and interests that need to be addressed? Are there conflicting uses of ocean and coastal resources?</li>
+<li>Is the objective to use the findings to reform policies and/or improve practices?</li>
+<li>Are there any specific management priorities established through government mandates, private sector initiatives, and/or international treaty obligations that would especially benefit from an Index assessment? Are there any special management needs?</li>
+</ul>
+</div>
+<div id="identifying-local-characteristics-and-priorities" class="section level3 unnumbered hasAnchor">
+<h3>2) Identifying local characteristics and priorities<a href="bhi-local-get-started.html#identifying-local-characteristics-and-priorities" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Identifying local characteristics and priorities for ocean health is crucial for determining the goals to be assessed. Examples of goals used in the BHI are: <em>Artisanal Fishing Opportunities</em>, <em>Biodiversity</em>, <em>Carbon Storage</em>, <em>Clean Waters</em>, <em>Food Provision</em>, <em>Livelihoods and Economies</em>, <em>Natural Products</em>, <em>Sense of Place</em>, and <em>Tourism</em>. You may remove the goals that are irrelevant or add new ones that are relevant to your local area. Understanding which goals and ocean benefits are important in the proposed study area, and what threats or possible changes might be affecting the sustainable delivery of those benefits is essential when identifying goals. Also, it can be important to establish which priorities are most and least influential (e.g. use of goal weightings when combining all goals).</p>
+</div>
+<div id="defining-spatial-areas" class="section level3 unnumbered hasAnchor">
+<h3>3) Defining spatial areas<a href="bhi-local-get-started.html#defining-spatial-areas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Defining spatial regions and boundaries is essential for BHI<sup>+</sup> assessments. Moreover, balancing the importance of biophysical boundaries with management boundaries is important when creating a local assessment, as often these do not exactly match up. Further, the scale of decision-making need to match with the scale of data availability.</p>
+</div>
+<div id="identifying-indicators-and-data" class="section level3 unnumbered hasAnchor">
+<h3>4) Identifying indicators and data<a href="bhi-local-get-started.html#identifying-indicators-and-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>When we define goals, we need to be thinking about indicators that help us measure those goals. How to represent goals and set spatial boundaries is guided by the type and quality of data that are available. There are practical and philosophical reasons for including or excluding data, including relevance to ocean health, accessibility, quality, existence of a reference point, and spatial and temporal scales. Ideally, data must be available for every region within the study area and for the five most-recent years to calculate the recent trend. For some goals, where temporal reference points are desirable, longer time series are preferable. An important question to reflect on when identifying indicators is: <strong>What should the goal capture?</strong></p>
+</div>
+<div id="establishing-reference-points" class="section level3 unnumbered hasAnchor">
+<h3>5) Establishing reference points<a href="bhi-local-get-started.html#establishing-reference-points" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Establishing sustainable reference points as explicit benchmarks using <strong>SMART</strong> criteria is key: <strong>S</strong>pecific (to the management objective), <strong>M</strong>easurable, <strong>A</strong>mbitious, <strong>R</strong>ealistic, and <strong>T</strong>ime-bound (Perrings et al. 2010, 2011). Reference points are set specifically to the local context to capture stakeholder priorities such that goal scores reflect progress towards achieving those targets, and future assessments can serve as a measure of the effectiveness of management and policy interventions. Reference points should, in fact, <strong>align with management targets</strong> established on a predetermined timeline.</p>
+</div>
+<div id="establishing-pressures-and-resilience-measures" class="section level3 unnumbered hasAnchor">
+<h3>6) Establishing Pressures and Resilience measures<a href="bhi-local-get-started.html#establishing-pressures-and-resilience-measures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The BHI core framework has two fundamental requirements for calculating scores:</p>
+<ul>
+<li>It requires information on the <strong>status</strong> and <strong>trend</strong> for each goal and a wide range of <strong>pressures</strong> (negative influences) and <strong>resilience</strong> (positive influences) measures that will likely affect each goal status in the near future (Halpern et al., 2012);</li>
+<li>Input information and the goals themselves must have an explicit benchmark or <strong>‘reference point’</strong> to which they are compared (Samhouri et al., 2012), which enables goals to be scored on a dimensionless scale from 0 to 100, where a score of 100 represents full delivery of the goal as defined by fully meeting the explicit benchmark.</li>
+</ul>
+<p>It is important to identify the pressures that affect the sea in the study area, and also which resilience measures, such as relevant environmental laws, could counteract those pressures. Ideally, every pressure with an identified strong impact should have a corresponding resilience measure.</p>
+</div>
+<div id="establishing-communications-and-outreach-efforts" class="section level3 unnumbered hasAnchor">
+<h3>7) Establishing communications and outreach efforts<a href="bhi-local-get-started.html#establishing-communications-and-outreach-efforts" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>BHI<sup>+</sup> assessments result in numeric scores which can be interpreted and communicated to many audiences. These scores enable comparisons between goals, across
+assessment areas, and through time when assessments are repeated with the same methods. Such comparisons can help local managers to make decisions based on the best available science by identifying geographic and thematic priorities, altering the allocation of resources, and tracking management performance over time. Along with final scores and methods, it is important to transparently describe successes and challenges of the process (including information, uncertainty and knowledge gaps), as these can help to <strong>prioritize policy decisions</strong> and can also make future assessments more efficient.</p>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
+<img src="_book/_main_files/figure-html/development-process.png" alt="Schematic illustration showing the development process for the proposed Utö Health Index, as an example of a local case applying the BHI^+^ framework" width="800px" />
+<p class="caption">
+Figure 5.1: Schematic illustration showing the development process for the proposed Utö Health Index, as an example of a local case applying the BHI<sup>+</sup> framework
+</p>
+</div>
+<p><br></p>
+</div>
+</div>
+<div id="data-management-for-bhi-local" class="section level2 hasAnchor" number="5.5">
+<h2><span class="header-section-number">5.5</span> Data management for BHI-local<a href="bhi-local-get-started.html#data-management-for-bhi-local" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>This will be expanded with more content soon!</em></p>
+</div>
+<div id="the-process-of-preparing-data-for-the-index" class="section level2 hasAnchor" number="5.6">
+<h2><span class="header-section-number">5.6</span> The Process of Preparing data for the Index<a href="bhi-local-get-started.html#the-process-of-preparing-data-for-the-index" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>This will be expanded with more content soon!</em></p>
+</div>
+<div id="calculating-the-index-scores-and-making-flowerplots" class="section level2 hasAnchor" number="5.7">
+<h2><span class="header-section-number">5.7</span> Calculating the Index Scores and making Flowerplots<a href="bhi-local-get-started.html#calculating-the-index-scores-and-making-flowerplots" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>This will be expanded with more content soon!</em></p>
+<hr />
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="underlying-theory-concepts-and-framework.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="r-playground.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/05-bhi-local.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

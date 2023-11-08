@@ -1,0 +1,18 @@
+# R Playground!
+
+1) Score calculation + Flowerplots
+2) Add exercises with dummy data to explore the flowerplot function and let people play with it (try to find an ‘R playground’, like MyBinder, sololearn, etc.)
+
+
+## Further Readings and Learnings {-}
+
+
+- [Better science in less time](https://www.nature.com/articles/s41559-017-0160) 
+- [Ocean Health Index Onboarding](http://ohi-science.org/onboarding/), a higher-level overview of what the OHI is and how to start thinking about it with your team, and also where you can explore the 4 OHI process steps in more details.
+- [Ocean Health Index Toolbox Training](https://ohi-science.org/toolbox-training/index.html), which can train you to prepare for and use the OHI Toolbox (Conduct Phase).
+
+- [More OHI Resources](https://oceanhealthindex.org/resources/tools/)
+- [What makes OHI stand out in the sea of environmental indicators? (Seifert 2018)](https://ohi-science.org/news/goal-forward-approach): It is a goal-forward approach.
+- [Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans (Seifert 2019)](https://ohi-science.org/news/three-lessons-global): “Three interrelated things seem to stand out: include the right people from the start, fit the framework to the place, and align with existing regional efforts.”
+- [Sea sick? Setting targets to assess ocean health and ecosystem services](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/ES11-00366.1)
+- [Best practices for assessing ocean health in multiple contexts using tailorable frameworks](https://peerj.com/articles/1503/)

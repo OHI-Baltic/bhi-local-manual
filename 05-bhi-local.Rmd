@@ -1,0 +1,110 @@
+# BHI-local – Get Started! 
+
+
+The OHI^+^ is a step-by-step standardized process with an adaptive capacity to meet local necessities and needs, which leads to the creation of effective integrated management approaches for the ocean and coastal ecosystems.
+<br>
+Planning a BHI^+^ assessment requires identifying the **needs** and **spatial areas** of the assessment, establishing **objectives** and a **timeline of activities**, determining **necessary resources** (human and financial), and aligning the assessment process with existing efforts and initiatives. 
+
+The following are key ingredients when creating a local assessment from scratch. 
+
+
+## A qualified technical team
+
+A **core team** that is very knowledgeable about the BHI framework and process, and **‘Goal-keepers’** that are experts in specific BHI^+^ goals to help develop the best models, access information, identify pressures and resilience measures, and set reference points, through in-person meetings, workshops, and remote communication.
+
+
+```{r echo = FALSE, out.width = "800px", fig.align='center', error = FALSE}
+#knitr::include_graphics("https://imgs.xkcd.com/comics/correlation.png")
+#options(knitr.graphics.error = FALSE)
+knitr::include_graphics("_book/_main_files/figure-html/workshop-unsplash-photo-by-patrick-perkins.jpg")
+```
+
+<br>
+
+## Policy and Management Interest
+
+BHI^+^ assessments can be used to **inform** government policies to **improve** ocean health. This is most effective if there is interest and engagement from policy makers and ongoing communication during the BHI^+^ process, so the resulting index is better tailored to measure features and impacts of concern, targeted by **management actions**. 
+
+## Funding
+
+The costs to complete BHI^+^ assessments vary depending on the local context, and the first will need more investment than subsequent assessments. Financial support is needed for a management and technical team, workshops and meetings (including travel), communication, policy engagement, and operating costs. Therefore, **securing funding** is an important component to satisfactorily complete assessments and building institutional memory. The development of a local proposal or strategic action plan that details a timeline of activities, including the resources needed to accomplish them, is encouraged. 
+
+## Data and Indicators
+
+BHI^+^ assessments require gathering existing data and indicators to **represent relevant BHI^+^ goals**, and the pressures and resilience actions interacting with those goals. Information can come from environmental, social, and economic sources.
+It takes time to identify, gather, and process these data and indicators, and accessing the **best available information** is of highest importance. It is important to communicate where data gaps exist and which data are not ideal to be used; **identifying missing information** helps highlight areas for future improvement (see also this [OHI Data Planner](https://docs.google.com/spreadsheets/d/1f-vwUrQHrMs7cjhChuK2YnlbkE_5kQ6AgGwyV2eJ1vA/edit#gid=1485393150) to help you organize your thinking around the data available and how it could be used in your BHI^+^ assessment). 
+
+<br>
+
+------------------------------
+
+## Steps {-}
+
+BHI^+^ assessments use the same framework as the BHI assessments, but allow for exploration of variables influencing ocean health at the **smaller scales** where policy and management decisions are made. Goal models and targets are created using higher resolution data, indicators, and priorities, which produce scores **better reflecting local realities**. This enables scientists, managers, policy makers, and the public to better and more holistically understand, track, and communicate the status of local marine ecosystems, and to **design strategic management actions** to improve overall ocean health. 
+
+
+### 1) Creating a Vision: What’s the purpose of this BHI^+^ assessment? {-}
+
+Creating the Index is not the end goal: it is merely a process toward the true end goal – **achieving improved ocean health**. Establishing a common vision and determining early in the process how the findings will be used and by whom, makes the final goal clear to the greater community (as well as to stakeholders and participants). Establishing a vision will help identify outstanding important issues that may need to be addressed later on. For example:
+
+  - What are the existing stakeholder problems, needs, and interests that need to be addressed? Are there conflicting uses of ocean and coastal resources?
+   - Is the objective to use the findings to reform policies and/or improve practices?
+   - Are there any specific management priorities established through government mandates, private sector initiatives, and/or international treaty obligations that would especially benefit from an Index assessment? Are there any special management needs?
+   
+### 2) Identifying local characteristics and priorities {-}
+
+Identifying local characteristics and priorities for ocean health is crucial for determining the goals to be assessed. Examples of goals used in the BHI are: _Artisanal Fishing Opportunities_, _Biodiversity_, _Carbon Storage_, _Clean Waters_, _Food Provision_, _Livelihoods and Economies_, _Natural Products_, _Sense of Place_, and _Tourism_. You may remove the goals that are irrelevant or add new ones that are relevant to your local area. Understanding which goals and ocean benefits are important in the proposed study area, and what threats or possible changes might be affecting the sustainable delivery of those benefits is essential when identifying goals. Also, it can be important to establish which priorities are most and least influential (e.g. use of goal weightings when combining all goals).
+
+### 3) Defining spatial areas {-}
+
+Defining spatial regions and boundaries is essential for BHI^+^ assessments. Moreover, balancing the importance of biophysical boundaries with management boundaries is important when creating a local assessment, as often these do not exactly match up. Further, the scale of decision-making need to match with the scale of data availability. 
+
+### 4) Identifying indicators and data {-}
+
+When we define goals, we need to be thinking about indicators that help us measure those goals. How to represent goals and set spatial boundaries is guided by the type and quality of data that are available. There are practical and philosophical reasons for including or excluding data, including relevance to ocean health, accessibility, quality, existence of a reference point, and spatial and temporal scales. Ideally, data must be available for every region within the study area and for the five most-recent years to calculate the recent trend. For some goals, where temporal reference points are desirable, longer time series are preferable. An important question to reflect on when identifying indicators is: **What should the goal capture?** 
+
+### 5) Establishing reference points {-}
+
+Establishing sustainable reference points as explicit benchmarks using **SMART** criteria is key: **S**pecific (to the management objective), **M**easurable, **A**mbitious, **R**ealistic, and **T**ime-bound (Perrings et al. 2010, 2011). Reference points are set specifically to the local context to capture stakeholder priorities such that goal scores reflect progress towards achieving those targets, and future assessments can serve as a measure of the effectiveness of management and policy interventions. Reference points should, in fact, **align with management targets** established on a predetermined timeline.
+
+### 6) Establishing Pressures and Resilience measures {-}
+
+The BHI core framework has two fundamental requirements for calculating scores:
+
+- It requires information on the **status** and **trend** for each goal and a wide range of **pressures** (negative influences) and **resilience** (positive influences) measures that will likely affect each goal status in the near future (Halpern et al., 2012);
+- Input information and the goals themselves must have an explicit benchmark or **‘reference point’** to which they are compared (Samhouri et al., 2012), which enables goals to be scored on a dimensionless scale from 0 to 100, where a score of 100 represents full delivery of the goal as defined by fully meeting the explicit benchmark. 
+
+It is important to identify the pressures that affect the sea in the study area, and also which resilience measures, such as relevant environmental laws, could counteract those pressures. Ideally, every pressure with an identified strong impact should have a corresponding resilience measure.
+
+### 7) Establishing communications and outreach efforts {-}
+
+BHI^+^ assessments result in numeric scores which can be interpreted and communicated to many audiences. These scores enable comparisons between goals, across
+assessment areas, and through time when assessments are repeated with the same methods. Such comparisons can help local managers to make decisions based on the best available science by identifying geographic and thematic priorities, altering the allocation of resources, and tracking management performance over time. Along with final scores and methods, it is important to transparently describe successes and challenges of the process (including information, uncertainty and knowledge gaps), as these can help to **prioritize policy decisions** and can also make future assessments more efficient. 
+
+<br>
+
+```{r echo = FALSE, out.width = "800px", fig.align='center', fig.cap = 'Schematic illustration showing the development process for the proposed Utö Health Index, as an example of a local case applying the BHI^+^ framework', error = FALSE}
+#knitr::include_graphics("https://imgs.xkcd.com/comics/correlation.png")
+#options(knitr.graphics.error = FALSE)
+knitr::include_graphics("_book/_main_files/figure-html/development-process.png")
+```
+
+<br>
+
+
+## Data management for BHI-local
+
+_This will be expanded with more content soon!_
+
+## The Process of Preparing data for the Index 
+
+_This will be expanded with more content soon!_
+
+## Calculating the Index Scores and making Flowerplots
+
+_This will be expanded with more content soon!_
+
+
+
+-----------------------------------------------------
+

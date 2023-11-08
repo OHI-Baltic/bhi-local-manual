@@ -1,6 +1,8 @@
+## Baltic Health Index Toolbox materials
+
 Welcome! 
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+These materials are available as a book at ...
 
 This template provides a skeleton file structure that you can edit to create your book. 
 

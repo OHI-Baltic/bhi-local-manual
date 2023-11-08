@@ -1,0 +1,16 @@
+fig:unnamed-chunk-3
+fig:unnamed-chunk-6
+fig:unnamed-chunk-8
+welcome
+what-is-the-baltic-health-index
+get-set-up-with-r-rstudio-git-github
+underlying-theory-concepts-and-framework
+bhi-local-get-started
+a-qualified-technical-team
+policy-and-management-interest
+funding
+data-and-indicators
+data-management-for-bhi-local
+the-process-of-preparing-data-for-the-index
+calculating-the-index-scores-and-making-flowerplots
+r-playground

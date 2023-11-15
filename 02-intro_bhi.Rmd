@@ -27,7 +27,7 @@ What other OHI local assessments (aka OHI+) have been done, where?
 - [Canada-British Columbia](https://github.com/OHI-Science/ohibc)
 - [Bali](http://ohi-science.org/bali/)
 - [Hawaii](http://ohi-science.org/mhi/)
-- [Arctic](https://github.com/OHI-Science/arc)
+- [Arctic Ocean](https://github.com/OHI-Science/arc)
 
 
 ```{r echo = FALSE, fig.cap = 'OHI local assessments around the world.', out.width = "800px", fig.align='center', error = FALSE}

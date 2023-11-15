@@ -11,7 +11,7 @@ The OHI framework categorizes **goals** and **sub-goals** representing ocean-der
 
 When creating the framework, scientists, economists, and sociologists review existing studies of what people want and expect from the ocean and then group them these categories called ‘goals.’
 
-Each goal is scored on the delivery of specific benefits with respect to a sustainable target. A goal is given a score of 100 if its benefits are maximized without compromising the ocean’s ability to deliver those benefits in the future. Lower scores indicate that more benefits could be gained or that current methods are harming the delivery of future benefits.
+Each goal is scored on the delivery of specific benefits with respect to a sustainable target. A goal is given a score of 100 if the management target (decided in (inter-) national or local management agencies or co-developed in common stakeholder workshops) is reached. Lower scores indicate that the decided management targets have not been reached.  
 
 ## Dimensions of the Index {-}
 
@@ -23,9 +23,9 @@ To calculate each Goal Score we average the **Present Status** and **Likely Futu
 
 - **LIKELY FUTURE STATUS** is the predicted status score five years into the future (once again, on a scale from 0 to 100), which is estimated by adjusting the current status score by 3 variables:
 
-    - **TREND** indicates how fast the system is moving in a given direction, like velocity (rate of change)
+    - **TREND** indicates in which direction (improvement or decline of the status over time) the goal indicators are moving.
     - **PRESSURES** which are the ecological and social factors that decrease a goal’s status.
-    - **RESILIENCE** which are ecological factors and social initiatives (policies, laws, etc.) that mitigate the pressures acting on a goal.
+    - **RESILIENCE** indicates how much ecological factors (diversity) and social initiatives (policies, regulations, etc.) buffer the pressures acting on a goal.
 
 
 

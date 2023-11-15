@@ -1,10 +1,4 @@
-# R Playground!
-
-1) Score calculation + Flowerplots
-2) Add exercises with dummy data to explore the flowerplot function and let people play with it (try to find an ‘R playground’, like MyBinder, sololearn, etc.)
-
-
-## Further Readings and Learnings {-}
+# Further Readings and Learnings {-}
 
 
 - [Better science in less time](https://www.nature.com/articles/s41559-017-0160) 

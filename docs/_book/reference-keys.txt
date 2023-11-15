@@ -13,4 +13,4 @@ data-and-indicators
 data-management-for-bhi-local
 the-process-of-preparing-data-for-the-index
 calculating-the-index-scores-and-making-flowerplots
-r-playground
+further-readings-and-learnings

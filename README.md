@@ -4,12 +4,9 @@ Welcome!
 
 These materials are available as a book at ...
 
-This template provides a skeleton file structure that you can edit to create your book. 
+To render this book: bookdown::render_book("index.Rmd", "bookdown::gitbook")
 
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
+Many thanks to the creators of bookdown:
 
-Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+- Yihui Xie (2016). bookdown: Authoring Books and Technical Documents with R Markdown. R package version 0.3.9.
+- Yihui Xie (2016). bookdown: Authoring Books and Technical Documents with R Markdown. Chapman and Hall/CRC. ISBN 978-1138700109

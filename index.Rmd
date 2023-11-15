@@ -18,7 +18,7 @@ description: |
 # Welcome
 
 Hi! <br>  
-This manual is the Toolbox Manual for the Baltic Health Index (BHI). 
+This manual is the Toolbox Manual for the Baltic Health Index (BHI). <br> 
 It takes inspiration from the [Ocean Health Index Toolbox Training](http://ohi-science.org/toolbox-training/) and it is adapted according to the unique features of the Baltic Sea.
 It will improve iteratively and the most recent version will always openly be available online.
 
